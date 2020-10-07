@@ -1,0 +1,162 @@
+\documentclass[11pt,twocolumn,twoside]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% packages needed for template - don't change!
+
+\usepackage[a4paper,top=2cm,bottom=1.5cm,left=1.0cm,right=1.0cm]{geometry}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[utf8]{inputenc}
+\usepackage[scaled=0.9]{helvet}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{xcolor,calc}
+\usepackage[colorlinks]{hyperref}
+\hypersetup{linkcolor = black, citecolor = black, urlcolor = blue} 
+\usepackage{fixltx2e}
+\usepackage{microtype}
+\usepackage{sectsty}
+\usepackage[font={small,sf},labelfont={sf,bf}, margin=0cm, indention = 0cm]{caption}
+\usepackage{authblk}
+\usepackage{booktabs}
+\usepackage{fancyhdr}
+
+% pacakge to generate dummy text
+\usepackage{lipsum}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% add your extra packages here (if needed)
+
+%\usepackage{mypackage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% definition of header and section fonts - don't change!
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyhead[L]{\sffamily\bfseries\footnotesize 16th International Meeting on Fully 3D Image 
+               Reconstruction in Radiology and Nuclear Medicine}
+\fancyhead[R]{\sffamily\bfseries\footnotesize 19 - 23 July 2021, Leuven, Belgium}
+
+\setlength{\parindent}{0cm}
+\setlength{\columnsep}{0.75cm}
+
+\allsectionsfont{\sffamily\bfseries\large}
+
+\renewcommand\Authfont{\sffamily}
+\renewcommand\Affilfont{\sffamily\footnotesize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% add title and authors here
+
+\title{\sffamily\bfseries A LaTex Template for a Fully3D 2021 submission} 
+
+\author[1]{\small First~Author}
+\author[1]{\small Second~Author}
+\author[2]{\small Third~Author}
+
+\affil[1]{Department of Nuclear Medicine,
+          University of Reconstruction, Leuven, Belgium}
+
+\affil[2]{Department of Radiology,
+          Recon University, Louvain-la-Neuve, Belgium}
+
+\date{}
+\maketitle
+\thispagestyle{fancy}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% add your content here
+
+\section{Introduction}
+
+Things to keep in mind:
+\begin{itemize}
+\item submission only in pdf format
+\item two colum format with font size 11
+\item maximum 4 pages
+\item in addition: prepare short abstract (max 150 words) 
+      to be entered in online submission system!
+      This will be used for the program and will not be part of the pdf!
+      You do not need to include this short abstract in this pdf.
+\end{itemize}
+
+
+%---------------------------------------------------------------------------
+\section{Materials and Methods}
+
+This is how you add references \cite{Deen2019}, \cite{Doe2020}.
+
+% example equation
+And this is a dummy equation
+\begin{equation}
+I_\alpha = \int_0^\alpha f(x) dx
+\end{equation}
+
+% example two column figure (use figure instead of figure* for one column figure)
+\begin{figure*}
+  \centering
+  \includegraphics[width=1.0\textwidth]{./fig1.pdf}
+  \caption{This a dummy figure to be replaced.}
+  \label{fig:dummyfigure}
+\end{figure*}
+
+Figure \ref{fig:dummyfigure} shows how to include a figure.
+Table \ref{tab:dummytable} shows how to include a table.
+
+\bigskip
+
+\lipsum[2-7]
+
+
+%---------------------------------------------------------------------------
+\section{Results}
+
+% example table
+\begin{table}
+  \centering
+  \sffamily
+  \begin{tabular}{lrrr}
+  \toprule
+  $\alpha$   & $\beta$ & $\gamma$ & $\delta$ \\
+  \midrule
+  A          & 1       & a        & 3        \\
+  B          & 2       & b        & 2        \\
+  C          & 3       & c        & 1        \\
+  \bottomrule
+  \end{tabular}
+  \caption{This is a dummy table to be replaced.}
+  \label{tab:dummytable}
+\end{table}
+
+\lipsum[2-9]
+
+%---------------------------------------------------------------------------
+\section{Discussion}
+\lipsum[2-9]
+
+%---------------------------------------------------------------------------
+\section{Conclusion}
+\lipsum[2]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% bibliography - do not change the bibliography style!
+\footnotesize
+\bibliographystyle{ieeetr}
+\bibliography{mybib}
+
+\end{document}
