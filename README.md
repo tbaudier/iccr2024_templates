@@ -4,7 +4,7 @@ Recommended templates to use for submission to the 16th International Meeting on
 Fully 3D Image Reconstruction in Radiology and Nuclear Medicine, 19 - 23 July 2021, Leuven, Belgium.
 
 We strongly encourage use of the latex template (fully3d_template.tex), but also
-provide a Word template (ZZZ).
+provide a Word template (fully3d_template.docx).
 
 Submission guide lines:
 - submission only in pdf format
