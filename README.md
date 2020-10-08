@@ -1,4 +1,4 @@
-# fully3d_2021_templates
+# Templates for submissions to the Fully3d 2021
 
 Recommended templates to use for submission to the 16th International Meeting on
 Fully 3D Image Reconstruction in Radiology and Nuclear Medicine, 19 - 23 July 2021, Leuven, Belgium.
