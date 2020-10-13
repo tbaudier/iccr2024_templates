@@ -12,7 +12,8 @@ fully_3d_template.pdf is a rendered preview generated from the latex template.
 
 **Submission rules**
 - Submission only in pdf format
-- Two colum format with font size 11
+- two colum format
+- font size 11 for main text, abstract can use font size 9
 - Maximum 4 A4 pages including everything (strict limit)
 - In addition: prepare short abstract (max 150 words) to be entered in online submission system! This will only be used for the program. It will **not** be used for the review process **nor** for the final proceedings.
 
