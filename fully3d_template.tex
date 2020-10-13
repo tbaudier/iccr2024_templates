@@ -1,22 +1,16 @@
 \documentclass[11pt,twocolumn,twoside]{article}
 \usepackage{fully3d}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% add your extra packages here (if needed)
-% before, have a look which packages are already imported by the fully3d package
-
+%%%%%% add your extra packages here (if needed)                                       %%%%%
+%%%%%% before, have a look which packages are already imported by the fully3d package %%%%%
 %\usepackage{mypackage}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% add title and authors here
+%%%%% add title here %%%%%
+\title{A LaTex Template for a Fully3D 2021 submission} 
 
-\title{\sffamily\bfseries A LaTex Template for a Fully3D 2021 submission} 
-
+%%% add authors and affiliations here %%%
 \author[1]{\small First~Author}
 \author[1]{\small Second~Author}
 \author[2]{\small Third~Author}
@@ -27,30 +21,35 @@
 \affil[2]{Department of Radiology,
           Recon University, City, Country}
 
-\date{}
-
+%%% don't change these 2 lines %%%
 \maketitle
 \thispagestyle{fancy}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{abstract}
-\footnotesize\bfseries
+%-------------------------------------------------------------------------------------------
 
-% add your abstract here
+%%%%% add your summary (abstract) here  %%%%%%
+%%%%% use footnotesize for this section %%%%%%
+%%%%% do not use the \abstract command! %%%%%% 
+
+\footnotesize
+\textbf{Abstract:}
 Add your abstract here. This abstract can be slightly longer than the very short 
 150 words abstract that you have to enter in the submission system and that is used 
 for the program. 
-\end{abstract}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% after the abtract use the normal font size (11pt) again
+\normalsize
+
+%-------------------------------------------------------------------------------------------
 
 
-% add your content here - feel free to change the section titles
-% remove the \lispum commands - they are just there to add dummy text
+%%%%% add your content here - feel free to change the section titles %%%%%%  
+%%%%% remove the \lispum commands and remove the dummy content       %%%%%%
 
 \section{Introduction}
 
 \textbf{\color{red}Submission rules}
-\begin{itemize}[itemsep=0pt,parsep=0pt,topsep=0pt, partopsep=0pt]
+\begin{itemize}
 \color{red}
 \item submission only in pdf format
 \item two colum format
@@ -61,8 +60,9 @@ for the program.
       It will not be used for the review process nor for the final proceedings.
 \end{itemize}
 
+\lipsum[2-5]
 
-%---------------------------------------------------------------------------
+
 \section{Materials and Methods}
 
 This is how you add references \cite{Deen2019}, \cite{Doe2020}.
@@ -88,14 +88,17 @@ Table \ref{tab:dummytable} shows how to include a table.
 
 \lipsum[2-7]
 
-
-%---------------------------------------------------------------------------
 \section{Results}
+\subsection{Simulation results}
+
+\lipsum[2-3]
+
+\subsection{Other results}
+\lipsum[2-3]
 
 % example table
 \begin{table}
   \centering
-  \sffamily
   \begin{tabular}{lrrr}
   \toprule
   $\alpha$   & $\beta$ & $\gamma$ & $\delta$ \\
@@ -109,20 +112,21 @@ Table \ref{tab:dummytable} shows how to include a table.
   \label{tab:dummytable}
 \end{table}
 
-\lipsum[2-9]
 
-%---------------------------------------------------------------------------
+
 \section{Discussion}
 \lipsum[2-9]
 
-%---------------------------------------------------------------------------
+
 \section{Conclusion}
 \lipsum[2]
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% bibliography - do not change the bibliography style!
+
+% bibliography - do not change the bibliography style and use footnotesize
 \footnotesize
 \bibliographystyle{ieeetr}
+% add your own bibtex file here
 \bibliography{mybib}
 
 \end{document}
