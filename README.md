@@ -1,3 +1,5 @@
+![](fig1.png)
+
 # Templates for submissions to the Fully3D 2021
 
 Recommended templates for submissions to the 16th International Meeting on
