@@ -8,7 +8,7 @@ provide a Word template (fully3d_template.docx).
 
 fully_3d_template.pdf is a rendered preview generated from the latex template.
 
-**Submission rules:**
+**Submission rules**
 - Submission only in pdf format
 - Two colum format with font size 11
 - Maximum 4 A4 pages including everything (strict limit)
