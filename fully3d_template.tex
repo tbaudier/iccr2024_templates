@@ -1,3 +1,12 @@
+% Latex template for submission to the 16th International Meeting on Fully 3D Image Reconstruction 
+% in Radiology and Nuclear Medicine (Fully3D 2021)
+%
+% Author: G.Schramm
+% Date:   Oct 2020
+%
+% In case you encouter problems, you can raise a github issue here:
+% https://github.com/gschramm/fully3d_2021_templates/issues
+
 \documentclass[11pt,twocolumn,twoside]{article}
 \usepackage{fully3d}
 
@@ -6,11 +15,16 @@
 %\usepackage{mypackage}
 
 
+%%%%% your bibtex file that contains the bibtex entries here %%%%%
+%%%%% please include DOIs in the bibtex entries if possible  %%%%%
+\addbibresource{mybib.bib}
+\AtBeginBibliography{\footnotesize}
+
 \begin{document}
 
 
 %-------------------------------------------------------------------------------------------
-%%%%% add title here %%%%%
+%%%%% add your title here %%%%%
 \title{A LaTex Template for a Fully3D 2021 submission} 
 
 %%%%% add authors and affiliations here %%%%%
@@ -31,25 +45,23 @@
 
 
 %-------------------------------------------------------------------------------------------
-%%%%% add your summary (abstract) here  %%%%%%
-%%%%% use footnotesize for this section %%%%%%
-%%%%% do not use the \abstract command! %%%%%% 
+%%%%% add your summary (abstract) here               %%%%%%
+%%%%% use footnotesize for this section              %%%%%%
+%%%%% please stick to the customabstract environment %%%%%% 
 
-\footnotesize
-\textbf{Abstract:}
+
+\begin{customabstract}
 Add your abstract here. This abstract can be slightly longer than the very short 
 150 words abstract that you have to enter in the submission system and that is used 
 for the program. 
-
-% after the abtract use the normal font size (11pt) again
-\normalsize
-
+\end{customabstract}
 
 
 %-------------------------------------------------------------------------------------------
-%%%%% main text                                              %%%%%    
-%%%%% remove the dummy content and put your own content here %%%%% 
-%%%%% feel free to choose your own section titles            %%%%% 
+%%%%% main text                                                %%%%%    
+%%%%% remove the dummy content and put your own content here   %%%%% 
+%%%%% feel free to choose your own section titles              %%%%% 
+%%%%% you don't need to put the content in a separate tex file %%%%%
 
 % dummy_content.tex shows how to add sections, figures, tables, formulas, and references
 % remove the following line, it just add dummy content
@@ -57,11 +69,6 @@ for the program.
 
 
 %-------------------------------------------------------------------------------------------
-% bibliography - do not change the bibliography style and use footnotesize
-\footnotesize
-\bibliographystyle{ieeetr}
-% add your own bibtex file here
-\bibliography{mybib}
-
+\printbibliography
 
 \end{document}
