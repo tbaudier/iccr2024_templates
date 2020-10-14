@@ -6,6 +6,11 @@
 %
 % In case you encouter problems, you can raise a github issue here:
 % https://github.com/gschramm/fully3d_2021_templates/issues
+%
+% 
+% To build this document, we recommend to use latexmk via:
+% ```latexmk -pdf fully3d_template.tex```
+% Building in the online editor overleaf also works.
 
 \documentclass[11pt,twocolumn,twoside]{article}
 \usepackage{fully3d}
@@ -15,9 +20,10 @@
 %\usepackage{mypackage}
 
 
-%%%%% your bibtex file that contains the bibtex entries here %%%%%
-%%%%% please include DOIs in the bibtex entries if possible  %%%%%
+%%%%% add your bibtex file that contains the bibtex entries here %%%%%
+%%%%% please include DOIs in the bibtex entries if possible      %%%%%
 \addbibresource{mybib.bib}
+% use smaller font size for references
 \AtBeginBibliography{\footnotesize}
 
 \begin{document}
@@ -28,9 +34,9 @@
 \title{A LaTex Template for a Fully3D 2021 submission} 
 
 %%%%% add authors and affiliations here %%%%%
-\author[1]{\small First~Author}
-\author[1,2]{\small Second~Author}
-\author[2]{\small Third~Author}
+\author[1]{First~Author}
+\author[1,2]{Second~Author}
+\author[2]{Third~Author}
 
 \affil[1]{Department of Nuclear Medicine,
           University of Reconstruction, City, Country}
@@ -64,7 +70,7 @@ for the program.
 %%%%% you don't need to put the content in a separate tex file %%%%%
 
 % dummy_content.tex shows how to add sections, figures, tables, formulas, and references
-% remove the following line, it just add dummy content
+% remove the following line, it just adds dummy content
 \input{dummy_content.tex}
 
 

@@ -19,6 +19,7 @@
 \usepackage{fancyhdr}
 \usepackage{setspace}
 \usepackage[minnames=3,maxnames=3,isbn=false,url=false,eprint=false,giveninits=true,sorting=none,citestyle=numeric-comp]{biblatex}
+\usepackage{csquotes}
 
 % pacakge to generate dummy text
 \usepackage{lipsum}
@@ -49,6 +50,10 @@
 % change font of setion titles
 \allsectionsfont{\sffamily\bfseries\normalsize}
 
+% font definitions for authors and affiliations
+\renewcommand\Authfont{\small}
+\renewcommand\Affilfont{\footnotesize}
+
 % define custom abstract environment 
 \newenvironment{customabstract}
     {\footnotesize 
@@ -60,4 +65,5 @@
     \vspace{-0.3cm}
     }
 
+% void In before journals in references
 \renewbibmacro{in:}{}    
