@@ -17,4 +17,4 @@ fully_3d_template.pdf is a rendered preview generated from the latex template.
 - Maximum 4 A4 pages including everything (strict limit)
 - In addition: prepare short abstract (max 150 words) to be entered in online submission system! This will only be used for the program. It will **not** be used for the review process **nor** for the final proceedings.
 
-[Link to online submission system](https://kuleuvencongres.be/fully3d-2021/call-for-abstracts)
+[Link to online submission system](https://www.conftool.pro/fully3d-2021/index.php?page=index)
