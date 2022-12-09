@@ -1,12 +1,7 @@
-![](fig1.png)
+# Templates for submissions to the Fully3D 2023
 
-# Templates for submissions to the Fully3D 2021
-
-Recommended templates for submissions to the 16th International Meeting on
-Fully 3D Image Reconstruction in Radiology and Nuclear Medicine, 19 - 23 July 2021, Leuven, Belgium.
-
-We strongly encourage the use of the latex template (fully3d_template.tex), but also
-provide a Word template (fully3d_template.docx).
+Recommended templates for submissions to the 17th International Meeting on
+Fully 3D Image Reconstruction in Radiology and Nuclear Medicine.
 
 fully_3d_template.pdf is a rendered preview generated from the latex template.
 
@@ -16,8 +11,6 @@ fully_3d_template.pdf is a rendered preview generated from the latex template.
 - font size 11 for main text, abstract and references can use font size 9
 - Maximum 4 A4 pages including everything (strict limit)
 - In addition: prepare short abstract (max 150 words) to be entered in online submission system! This will only be used for the program. It will **not** be used for the review process **nor** for the final proceedings.
-
-[Link to online submission system](https://www.conftool.pro/fully3d-2021/index.php?page=index)
 
 ## How to build the LaTex template
 
