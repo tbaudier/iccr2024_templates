@@ -1,6 +1,6 @@
-# Templates for submissions to the Fully3D 2023
+# Templates for submissions to the Fully3D conference
 
-Recommended templates for submissions to the 17th International Meeting on
+Recommended templates for submissions to the 16/17th International Meeting on
 Fully 3D Image Reconstruction in Radiology and Nuclear Medicine.
 
 fully_3d_template.pdf is a rendered preview generated from the latex template.
