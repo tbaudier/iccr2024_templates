@@ -1,9 +1,8 @@
-# Templates for submissions to the Fully3D conference
+# Templates for submissions to the ICCR2024 conference
 
-Recommended templates for submissions to the 16/17th International Meeting on
-Fully 3D Image Reconstruction in Radiology and Nuclear Medicine.
+Recommended templates for submissions to the XXth International Conference on the use of Computers in Radiation therapy.
 
-fully_3d_template.pdf is a rendered preview generated from the latex template.
+iccr2024_template.pdf is a rendered preview generated from the latex template.
 
 **Submission rules**
 - Submission only in pdf format
@@ -16,10 +15,10 @@ fully_3d_template.pdf is a rendered preview generated from the latex template.
 
 You can manually build the latex template by executing
 ```
-pdflatex fully3d_template.tex
-bibtex   fully3d_template.aux
-pdflatex fully3d_template.tex
-pdflatex fully3d_template.tex
+pdflatex iccr2024_template.tex
+bibtex   iccr2024_template.aux
+pdflatex iccr2024_template.tex
+pdflatex iccr2024_template.tex
 ```
 
 Alternatively, simply run the build chain including pdflatex and bibtex of your favorite LaTex editor or use [latexmk](https://mg.readthedocs.io/latexmk.html).
